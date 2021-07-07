@@ -1,0 +1,49 @@
+pre {
+  background: rgb(237, 237, 237);
+  overflow: hidden;
+  font-size: 14px;
+  width: 100%;
+  white-space: pre-wrap;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.form {
+  margin: 60px auto 30px;
+  width: 60%;
+
+}
+
+.urlForm {
+  background: #eee;
+  padding: 8px;
+  border-radius: 8px;
+  width: 60%;
+  border: none;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.result {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.set {
+  border-bottom: 1px dotted #999;
+  padding: 15px 0;
+}
+
+.set:first-child {
+  border-top: 1px dotted #999;
+}
