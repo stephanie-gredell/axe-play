@@ -22,6 +22,7 @@ app.get('/result', function(req, res) {
     
   puppeteer.launch({
     args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    executablePath: '/usr/bin/chromium-browser'
   }).then((browser) => {
     browser.newPage().then((page) => {
       page.setBypassCSP(true);
